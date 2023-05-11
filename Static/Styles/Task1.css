@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #F0F8FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    margin: 20px;
+    position: relative;
+    width:100%;
+    max-width: 1300px;
+    min-height: 1800px;
+    background-color:#003147;
+}
+.profile-text{
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.profile-text .imagebox {
+position: relative;
+width:200px;
+height:200px;
+top:10px;
+border-radius: 50%;
+overflow: hidden; 
+background-color: #fff;
+}
+.profile-text .imagebox  img{
+    position: absolute;
+    top:5px;
+    width:100%;
+    height:100%;
+    }
+.profile-text h2{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top:20px;
+    color:#fff;
+    font-size: 1.5 en;
+    font-weight: 600;
+    line-height: -10px;
+}
+.profile-text h2 span{
+    font-size:20px;
+    font-weight: 100;
+    position:relative;
+    top:10px;
+}
+.ContactInfo{
+    position: relative;
+    left:20px;
+    color: #fff;
+    padding:20px;
+    letter-spacing: 2px;
+}
+.ContactInfo a{
+    color:white;
+}
+.ContactInfo ul {
+    padding:10px;
+}
+.ContactInfo ul li{
+    padding:10px;
+}
+.container .address{
+    position:relative;
+    left:10px;
+    bottom:15px;
+    letter-spacing: 2px;
+    color:#fff;
+}
+.container .add{
+    position:relative;
+    top:10px;
+    left:20px;
+    padding:10px;
+    letter-spacing: 2px;
+}
+.address .egy{
+    position: relative;
+    top:15px;
+    left:10px;
+    letter-spacing: 2px;
+}
+.address .Bani{
+    position: relative;
+    top:15px;
+    left:15px;
+    letter-spacing: 2px;
+}
+.address li{
+    margin:5px;
+}
+.Education{
+    color:white;
+    padding:20px;
+    letter-spacing: 2px;
+    position:relative;
+    left:30px;
+}
+.Education li{
+    padding:13px;
+    margin:5px;
+}
+.courses{
+    color:white;
+    padding:20px;
+    letter-spacing: 2px;
+    position:relative;
+    left:30px;
+}
+.courses li{
+    padding:13px;
+    margin:5px;
+}
+.languages{
+    color:white;
+    padding:20px;
+    letter-spacing: 2px;
+    position:relative;
+    left:30px;
+}
+.languages li{
+    padding:13px;
+    margin:5px;
+}
+.aud h3{
+    color:white;
+    padding:20px;
+    letter-spacing: 2px;
+    position:relative;
+    left:25px;
+}
+.aud audio{
+    padding:10px;
+    margin:5px;
+    position:relative;
+    left:30px;
+}
+.skills{
+    color:white;
+    padding:20px;
+    letter-spacing: 2px;
+    position:relative;
+    left:30px;
+}
+.skills li{
+    padding:13px;
+    margin:5px;
+}
+.experiance{
+    color:white;
+    padding:20px;
+    letter-spacing: 2px;
+    position:relative;
+    left:30px;
+}
+.experiance a{
+    color:white;
+}
+.exp h3{
+    color:white;
+    padding:20px;
+    letter-spacing: 2px;
+    position:relative;
+    left:25px;
+}
+.experiance li{
+    padding:13px;
+    margin:5px;
+}
